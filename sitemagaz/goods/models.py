@@ -31,3 +31,11 @@ class Product (models.Model):
     class Meta:
         verbose_name= 'Продукт'
         verbose_name_plural= 'Продукты'
+
+    def display_id(self):
+        return f'{self.id : 05}'
+    
+    def sell_price(self):
+        if self.discount:
+            return round(self.price - self.price*self.discount/100)
+        return self.price
