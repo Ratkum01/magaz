@@ -1,29 +1,26 @@
-from django.shortcuts import get_object_or_404, render
-from django.template import context
+from django.core.paginator import Paginator
+from django.shortcuts import get_list_or_404, get_object_or_404, render
 
 from goods.models import Product
 
 
 # Create your views here.
 def catalog(request, category_slug):
-    if category_slug == 'vse-tovary':
+    page = request.GET.get("page", 1)
+    if category_slug == "vse-tovary":
         goods = Product.objects.all()
     else:
-        goods = get_object_or_404(Product.objects.filter(category__slug=category_slug))
+        goods = get_list_or_404(Product.objects.filter(category__slug=category_slug))
 
-    context = {
-        'title': 'Каталог',
-        'goods': goods,
-    }
+    paginator = Paginator(goods, 3)
+    current_page = paginator.page(page)
 
-    return render(request, 'goods/catalog.html', context)
+    context = {"title": "Каталог", "goods": current_page, "slug_url": category_slug}
 
+    return render(request, "goods/catalog.html", context)
 
 
 def product(request, product_slug):
-    product= Product.objects.get(slug=product_slug)
-    context={
-        'product': product
-    }
-    return render(request, 'goods/product.html', context)
-
+    product = Product.objects.get(slug=product_slug)
+    context = {"product": product}
+    return render(request, "goods/product.html", context)
