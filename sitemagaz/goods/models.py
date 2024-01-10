@@ -16,7 +16,7 @@ class Categories (models.Model):
         return self.name
     
 class Product (models.Model):
-    name= models.CharField(max_length=50, unique=True, verbose_name="Название")
+    name = models.CharField(max_length=100, unique=True, verbose_name="Название")
     slug= models.SlugField(max_length=100, unique= True, blank=True , null= True , verbose_name='URL')
     description= models.TextField(default='Тут Пусто',verbose_name='Описание' )
     image= models.ImageField(upload_to='goods_images', blank=True, null=True,verbose_name='Изоброжение' )
