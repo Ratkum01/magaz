@@ -1,0 +1,156 @@
+[
+    {
+        "model": "goods.product",
+        "pk": 1,
+        "fields": {
+            "name": "╨з╨░╨╣╨╜╤Л╨╣ ╤Б╤В╨╛╨╗╨╕╨║ ╨╕ ╤В╤А╨╕ ╤Б╤В╤Г╨╗╨░",
+            "slug": "chajnyj-stolik-i-tri-stula",
+            "description": "╨Ъ╨╛╨╝╨┐╨╗╨╡╨║╤В ╨╕╨╖ ╤В╤А╤С╤Е ╤Б╤В╤Г╨╗╤М╨╡╨▓ ╨╕ ╨┤╨╕╨╖╨░╨╣╨╜╨╡╤А╤Б╨║╨╕╨╣ ╤Б╤В╨╛╨╗╨╕╨║ ╨┤╨╗╤П ╨│╨╛╤Б╤В╨╕╨╜╨╜╨╛╨╣ ╨║╨╛╨╝╨╜╨░╤В╤Л.",
+            "image": "goods_images/set_of_tea_table_and_three_chairs.jpg",
+            "price": "150.00",
+            "discount": "25.00",
+            "quantity": 1,
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.product",
+        "pk": 2,
+        "fields": {
+            "name": "╨з╨░╨╣╨╜╤Л╨╣ ╤Б╤В╨╛╨╗╨╕╨║ ╨╕ ╨┤╨▓╨░ ╤Б╤В╤Г╨╗╨░",
+            "slug": "chajnyj-stolik-i-dva-stula",
+            "description": "╨Э╨░╨▒╨╛╤А ╨╕╨╖ ╤Б╤В╨╛╨╗╨░ ╨╕ ╨┤╨▓╤Г╤Е ╤Б╤В╤Г╨╗╤М╨╡╨▓ ╨▓ ╨╝╨╕╨╜╨╕╨╝╨░╨╗╨╕╤Б╤В╨╕╤З╨╡╤Б╨║╨╛╨╝ ╤Б╤В╨╕╨╗╨╡.",
+            "image": "goods_images/set_of_tea_table_and_two_chairs.jpg",
+            "price": "93.00",
+            "discount": "0.00",
+            "quantity": 2,
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.product",
+        "pk": 3,
+        "fields": {
+            "name": "╨Ф╨▓╤Г╤Е╤Б╨┐╨░╨╗╤М╨╜╨░╤П ╨║╤А╨╛╨▓╨░╤В╤М",
+            "slug": "dvuhspalnaya-krovat",
+            "description": "╨Ъ╤А╨╛╨▓╨░╤В╤М ╨┤╨▓╤Г╤Е╤Б╨┐╨░╨╗╤М╨╜╨░╤П ╤Б ╨╜╨░╨┤╨│╨╛╨╗╨╛╨▓╨╜╨╕╨║╨╛╨╝ ╨╕ ╨▓╨╛╨╛╨▒╤Й╨╡ ╨╛╤З╨╡╨╜╤М ╨╛╤А╤В╨╛╨┐╨╡╨┤╨╕╤З╨╜╨░╤П.",
+            "image": "goods_images/double_bed.jpg",
+            "price": "670.00",
+            "discount": "30.00",
+            "quantity": 7,
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.product",
+        "pk": 4,
+        "fields": {
+            "name": "╨Ъ╤Г╤Е╨╛╨╜╨╜╤Л╨╣ ╤Б╤В╨╛╨╗ ╤Б ╤А╨░╨║╨╛╨▓╨╕╨╜╨╛╨╣",
+            "slug": "kuhonnyj-stol-s-rakovinoj",
+            "description": "╨Ъ╤Г╤Е╨╛╨╜╨╜╤Л╨╣ ╤Б╤В╨╛╨╗ ╨┤╨╗╤П ╨╛╨▒╨╡╨┤╨░ ╤Б ╨▓╤Б╤В╤А╨╛╨╡╨╜╨╜╨╛╨╣ ╤А╨░╨║╨╛╨▓╨╕╨╜╨╛╨╣ ╨╕ ╤Б╤В╤Г╨╗╤М╤П╨╝╨╕.",
+            "image": "",
+            "price": "365.00",
+            "discount": "0.00",
+            "quantity": 8,
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.product",
+        "pk": 5,
+        "fields": {
+            "name": "╨Ъ╤Г╤Е╨╛╨╜╨╜╤Л╨╣ ╤Б╤В╨╛╨╗ ╤Б ╨▓╤Б╤В╤А╨╛╨╣╨║╨╛╨╣",
+            "slug": "kuhonnyj-stol-s-vstrojkoj",
+            "description": "╨Ъ╤Г╤Е╨╛╨╜╨╜╤Л╨╣ ╤Б╤В╨╛╨╗ ╤Б╨╛ ╨▓╤Б╤В╤А╨╛╨╡╨╜╨╜╨╛╨╣ ╨┐╨╗╨╕╤В╨╛╨╣ ╨╕ ╤А╨░╨║╨╛╨▓╨╕╨╜╨╛╨╣. ╨Ь╨╜╨╛╨│╨╛ ╨┐╨╛╨╗╨╛╨║ ╨╕ ╨▓╨╛╨╛╨▒╤Й╨╡ ╨║╤А╨░╤Б╨╕╨▓╤Л╨╣.",
+            "image": "goods_images/kitchen_table.jpg",
+            "price": "430.00",
+            "discount": "15.00",
+            "quantity": 3,
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.product",
+        "pk": 6,
+        "fields": {
+            "name": "╨г╨│╨╗╨╛╨▓╨╛╨╣ ╨┤╨╕╨▓╨░╨╜ ╨┤╨╗╤П ╨│╨╛╤Б╤В╨╕╨╜╨╜╨╛╨╣",
+            "slug": "uglovoj-divan-dlya-gostinnoj",
+            "description": "╨г╨│╨╗╨╛╨▓╨╛╨╣ ╨┤╨╕╨▓╨░╨╜, ╤А╨░╤Б╨║╨╗╨░╨┤╤Л╨▓╨░╨╡╤В╤Б╤П ╨▓ ╨┤╨▓╤Г╤Е╤Б╨┐╨░╨╗╤М╨╜╤Г╤О ╨║╤А╨╛╨▓╨░╤В╤М, ╨┤╨╗╤П ╨│╨╛╤Б╤В╨╕╨╜╨╜╨╛╨╣ ╨╕ ╨┐╤А╨╕╨╡╨╝╨░ ╨│╨╛╤Б╤В╨╡╨╣ ╤Б╨░╨╝╨╛╨╡ ╤В╨╛!",
+            "image": "goods_images/corner_sofa.jpg",
+            "price": "610.00",
+            "discount": "50.00",
+            "quantity": 0,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.product",
+        "pk": 7,
+        "fields": {
+            "name": "╨Я╤А╨╕╨║╤А╨╛╨▓╨░╤В╨╜╤Л╨╣ ╤Б╤В╨╛╨╗╨╕╨║",
+            "slug": "prikrovatnyj-stolik",
+            "description": "╨Я╤А╨╕╨║╤А╨╛╨▓╨░╤В╨╜╤Л╨╣ ╤Б╤В╨╛╨╗╨╕╨║ ╤Б ╨┤╨▓╤Г╨╝╤П ╨▓╤Л╨┤╨▓╨╕╨╢╨╜╤Л╨╝╨╕ ╤П╤Й╨╕╨║╨░╨╝╨╕ (╤Ж╨▓╨╡╤В╨╛╨║ ╨╜╨╡ ╨▓╤Е╨╛╨┤╨╕╤В ╨▓ ╨║╨╛╨╝╨┐╨╗╨╡╨║╤В).",
+            "image": "goods_images/bedside_table.jpg",
+            "price": "55.00",
+            "discount": "10.00",
+            "quantity": 14,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.product",
+        "pk": 8,
+        "fields": {
+            "name": "╨Ф╨╕╨▓╨░╨╜ ╨╛╨▒╤Л╨║╨╜╨╛╨▓╨╡╨╜╨╜╤Л╨╣",
+            "slug": "divan-obyknovennyj",
+            "description": "╨Ф╨╕╨▓╨░╨╜, ╨╛╨╜ ╨╢╨╡ ╤Б╨╛╤Д╨░ ╨╛╨▒╤Л╨║╨╜╨╛╨▓╨╡╨╜╨╜╨░╤П, ╨╜╨╕╤З╨╡╨│╨╛ ╨┐╤А╨╕╨╝╨╡╤З╨░╤В╨╡╨╗╤М╨╜╨╛╨│╨╛ ╨┤╨╗╤П ╨╛╨┐╨╕╤Б╨░╨╜╨╕╤П.",
+            "image": "goods_images/sofa.jpg",
+            "price": "190.00",
+            "discount": "20.00",
+            "quantity": 3,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.product",
+        "pk": 9,
+        "fields": {
+            "name": "╨б╤В╤Г╨╗ ╨╛╤Д╨╕╤Б╨╜╤Л╨╣",
+            "slug": "stul-ofisnyj",
+            "description": "╨Ю╨┐╨╕╤Б╨░╨╜╨╕╨╡ ╤В╨╛╨▓╨░╤А╨░, ╨┐╤А╨╛ ╤В╨╛ ╨║╨░╨║╨╛╨╣ ╨╛╨╜ ╨║╨╗╨░╤Б╤Б╨╜╤Л╨╣, ╨╜╨╛ ╤Н╤В╨╛ ╤Б╤В╤Г╨╗, ╤З╤В╨╛ ╤В╤Г╤В ╤Б╨║╨░╨╖╨░╤В╤М...",
+            "image": "goods_images/office_chair.jpg",
+            "price": "30.00",
+            "discount": "30.00",
+            "quantity": 6,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.product",
+        "pk": 10,
+        "fields": {
+            "name": "╨а╨░╤Б╤В╨╡╨╜╨╕╨╡",
+            "slug": "rastenie",
+            "description": "╨а╨░╤Б╤В╨╡╨╜╨╕╨╡ ╨┤╨╗╤П ╤Г╨║╤А╨░╤И╨╡╨╜╨╕╤П ╨▓╨░╤И╨╡╨│╨╛ ╨╕╨╜╤В╨╡╤А╤М╨╡╤А╨░ ╨┐╨╛╨┤╨░╤А╨╕╤В ╤Б╨▓╨╡╨╢╨╡╤Б╤В╤М ╨╕ ╨▒╨╡╨╖╨╝╤П╤В╨╡╨╢╨╜╨╛╤Б╤В╤М ╨╛╨▒╤Б╤В╨░╨╜╨╛╨▓╨║╨╡.",
+            "image": "goods_images/flower.jpg",
+            "price": "10.00",
+            "discount": "15.00",
+            "quantity": 6,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.product",
+        "pk": 11,
+        "fields": {
+            "name": "╨Я╤А╨╕╨║╤А╨╛╨▓╨░╤В╨╜╤Л╨╣ ╤Б╤В╨╛╨╗╨╕╨║ 2",
+            "slug": "prikrovatnyj-stolik-2",
+            "description": "╨б╤В╨╛╨╗╨╕╨║, ╨┤╨╛╨▓╨╛╨╗╤М╨╜╨╛ ╤Б╤В╤А╨░╨╜╨╜╤Л╨╣ ╨╜╨░ ╨▓╨╕╨┤, ╨╜╨╛ ╨┐╨╛╨┤╤Е╨╛╨┤╨╕╤В ╨┤╨╗╤П ╤А╨░╨╖╨╝╨╡╤Й╨╡╨╜╨╕╤П ╤А╤П╨┤╨╛╨╝ ╤Б ╨║╤А╨╛╨▓╨░╤В╤М╤О.",
+            "image": "goods_images/strange_table.jpg",
+            "price": "25.00",
+            "discount": "20.00",
+            "quantity": 7,
+            "category": 7
+        }
+    }
+]
