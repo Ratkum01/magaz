@@ -34,14 +34,14 @@ class Cart(models.Model):
     session_key = models.CharField(max_length=32, null=True, blank=True)
 
 
-class Meta:
-    verbose_name = "Корзина"
-    verbose_name_plural = "Корзина"
+    class Meta:
+        verbose_name = "Корзина"
+        verbose_name_plural = "Корзина"
 
 
-def __str__(self):
-    return f"Корзина {self.user.username} | Товар {self.product.name} | Количество {self.quantity}"
+    def __str__(self):
+        return f"Корзина {self.user.username} | Товар {self.product.name} | Количество {self.quantity}"
 
 
-def product_prices(self):
-    return round(self.product.sell_price() * self.quantity, 2)
+    def product_prices(self):
+        return round(self.product.sell_price() * self.quantity, 2)

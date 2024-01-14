@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'django_extensions',
     "django.contrib.postgres",
     'users',
-    'carts'
+    'carts',
 ]
 
 MIDDLEWARE = [
