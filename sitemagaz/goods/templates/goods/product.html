@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
-<!DOCTYPE html>
+
+{% block modal_cart %}
+{% include "includes/cart_button.html" %}
+{% endblock modal_cart %}
+
 {% block content %}
   <section>
     <!-- Контент -->

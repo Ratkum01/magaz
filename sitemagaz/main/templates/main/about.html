@@ -1,15 +1,17 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 {% load static %}
+{% block modal_cart %}
+  {% include 'includes/cart_button.html' %}
+{% endblock %}
 {% block css %}
   <link rel="stylesheet" href="{% static 'deps/css/my_footer_css.css' %}" />
 {% endblock %}
 
 {% block content %}
-<div class="mt-5 pt-5 bg-white custom-shadow rounded">
+  <div class="mt-5 pt-5 bg-white custom-shadow rounded">
     <h2 class="m-2"><strong>ABOUTT</strong></h2>
-    <p class="m-2">{{content}}</p>
-</div>
-  
+    <p class="m-2">{{ content }}</p>
+  </div>
 {% endblock %}
 {% block future %}
   <footer class="py-4 bg-dark">
