@@ -2,6 +2,7 @@ from email.policy import default
 from turtle import mode
 from unicodedata import category
 from django.db import models
+from django.urls import reverse
 
 # Create your models here.
 class Categories (models.Model):
@@ -39,3 +40,7 @@ class Product (models.Model):
         if self.discount:
             return round(self.price - self.price*self.discount/100)
         return self.price
+    
+    def get_absolute_url(self):
+        return reverse("catalog:product", kwargs={"product_slug": self.slug})
+    
